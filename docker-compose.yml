@@ -8,8 +8,10 @@ services:
       - PUID=1000 #optional
       - PGID=1000 #optional
       - TZ=Asia/Bangkok
-      - SUBDOMAINS=subdomain1,subdomain2
-      - TOKEN=token
+      #- SUBDOMAINS=subdomain1,subdomain2
+      - SUBDOMAINS=txmihome2612
+      #- TOKEN=token
+      - TOKEN=29b61ca5-5aae-40c2-8eae-b1315787d55f
       - LOG_FILE=false #optional
     #volumes:
       #- /path/to/appdata/config:/config #optional
